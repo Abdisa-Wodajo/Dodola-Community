@@ -126,12 +126,6 @@ body {
   margin-bottom: 30px;
 }
 
-.footer {
-  background-color: #1b5e20;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-}
 
 .card:hover {
   transform: scale(1.02);
@@ -144,4 +138,37 @@ body {
 
 .nav-link:hover {
   color: #1b5e20 !important;
+}
+  #testimonials .card {
+    transition: transform 0.3s ease;
+  }
+
+  #testimonials .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .section-title {
+    color: #1b5e20;
+    font-weight: bold;
+  }
+
+  .stars {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 768px) {
+    #testimonials .card-body {
+      padding: 1.5rem 1rem;
+    }
+  }
+  .member-photo{
+    width: 50px;
+    height: 50px;
+  }
+
+.footer {
+  background-color: #1b5e20;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
 }
