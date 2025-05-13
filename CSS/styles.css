@@ -1,5 +1,6 @@
 body {
   font-family: "Segoe UI", sans-serif;
+ 
 }
 
 .navbar-brand {
@@ -11,7 +12,7 @@ body {
   height: 40px;
   border-radius: 50%;
 }
-.hero{
+.hero {
   position: relative;
   height: 70vh;
   overflow: hidden;
@@ -122,10 +123,10 @@ body {
 }
 
 .section-title {
-  color: #1b5e20;
+  color: #fdd835; /* Gold-yellow */
+  font-weight: bold;
   margin-bottom: 30px;
 }
-
 
 .card:hover {
   transform: scale(1.02);
@@ -139,32 +140,52 @@ body {
 .nav-link:hover {
   color: #1b5e20 !important;
 }
-  #testimonials .card {
-    transition: transform 0.3s ease;
-  }
+#testimonials .card {
+  transition: transform 0.3s ease;
+}
 
-  #testimonials .card:hover {
-    transform: translateY(-5px);
-  }
+#testimonials .card:hover {
+  transform: translateY(-5px);
+}
 
-  .section-title {
-    color: #1b5e20;
-    font-weight: bold;
-  }
+.section-title {
+  color: #1b5e20;
+  font-weight: bold;
+}
 
-  .stars {
-    font-size: 1.2rem;
-  }
+.stars {
+  font-size: 1.2rem;
+  color: #ffc107;
+}
 
-  @media (max-width: 768px) {
-    #testimonials .card-body {
-      padding: 1.5rem 1rem;
-    }
+@media (max-width: 768px) {
+  #testimonials .card-body {
+    padding: 1.5rem 1rem;
   }
-  .member-photo{
-    width: 50px;
-    height: 50px;
-  }
+}
+.text-muted {
+  color: #bbb !important;
+}
+
+.btn-outline-warning {
+  border-color: #fdd835;
+  color: #fdd835;
+}
+
+.btn-outline-warning:hover {
+  background-color: #fdd835;
+  color: black;
+}
+.coming-soon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #bbb;
+
+}
+
 
 .footer {
   background-color: #1b5e20;

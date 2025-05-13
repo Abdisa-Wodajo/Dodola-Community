@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lan="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -158,46 +158,66 @@
       </div>
     </section>
 
-    <!-- Events -->
-    <section id="events" class="py-5 bg-light">
-      <div class="container">
-        <h2 class="section-title text-center">Upcoming Events</h2>
-        <ul class="list-group">
-          <li class="list-group-item">
-            📅 May 25: Online Zoom Meeting - How to Support Youth from Dodola
-          </li>
-          <li class="list-group-item">
-            📅 June 10: Cultural Night - Dodola Diaspora Gathering (Addis Ababa)
-          </li>
-          <li class="list-group-item">
-            📅 July 5: Mentorship Kickoff - Tech & Education
-          </li>
-        </ul>
+    <!-- Coming Soon Buttons -->
+    <div class="text-center mt-5 row g-4">
+      <div class="coming-soon col-md-4 col bg-secondary text-white">
+        <button
+          class="btn btn-outline-warning mx-2"
+          data-bs-toggle="modal"
+          data-bs-target="#comingSoonModal"
+        >
+          Events
+        </button>
       </div>
-    </section>
-
-    <!-- Learn -->
-    <section id="learn" class="py-5">
-      <div class="container">
-        <h2 class="section-title text-center">Learn & Share</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <h5>📘 Blog: How to Apply for Scholarships Abroad</h5>
-            <p>
-              Written by Fikadu - Read about the top websites and techniques to
-              apply for international scholarships.
-            </p>
+      <div class="coming-soon col-md-4 col bg-secondary text-white">
+        <button
+          class="btn btn-outline-warning mx-2"
+          data-bs-toggle="modal"
+          data-bs-target="#comingSoonModal"
+        >
+          Learn & Share
+        </button>
+      </div>
+      <div class="coming-soon col-md-4 col bg-secondary text-white">
+        <button
+          class="btn btn-outline-warning mx-2"
+          data-bs-toggle="modal"
+          data-bs-target="#comingSoonModal"
+        >
+          Blog
+        </button>
+      </div>
+    </div>
+    <!-- Coming Soon Modal -->
+    <div
+      class="modal fade"
+      id="comingSoonModal"
+      tabindex="-1"
+      aria-labelledby="comingSoonLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white border border-warning">
+          <div class="modal-header">
+            <h5 class="modal-title" id="comingSoonLabel">🚧 Coming Soon</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
-          <div class="col-md-6">
-            <h5>🎥 Video: Afaan Oromoo Coding Tutorial</h5>
-            <p>
-              Learn programming basics in Afaan Oromoo. Shared by Samiya from
-              our Tech Learning Group.
-            </p>
+          <div class="modal-body text-center">
+            <p>This section is under construction. Please check back soon!</p>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/3524/3524388.png"
+              alt="Coming Soon"
+              width="60"
+            />
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- Contact -->
     <section id="contact" class="py-5 bg-light">
