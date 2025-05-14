@@ -1,8 +1,6 @@
 body {
   font-family: "Segoe UI", sans-serif;
- 
 }
-
 .navbar-brand {
   font-weight: bold;
   color: #1b5e20;
@@ -176,16 +174,14 @@ body {
   background-color: #fdd835;
   color: black;
 }
-.coming-soon{
+.coming-soon {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 200px;
   border-radius: 10px;
   background-color: #bbb;
-
 }
-
 
 .footer {
   background-color: #1b5e20;
