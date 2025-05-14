@@ -174,15 +174,37 @@ body {
   background-color: #fdd835;
   color: black;
 }
-.coming-soon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  border-radius: 10px;
-  background-color: #bbb;
-}
+.custom-card {
+    background-color: #343a40;
+    color: white;
+    border: 1px solid #ffc107;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 1rem;
+    cursor: pointer;
+    position: relative;
+  }
 
+  .custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 193, 7, 0.6);
+  }
+
+  .hover-label {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: #ffc107;
+    color: #343a40;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .custom-card:hover .hover-label {
+    opacity: 1;
+  }
 .footer {
   background-color: #1b5e20;
   color: white;
