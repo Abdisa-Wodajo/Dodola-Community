@@ -1,9 +1,28 @@
 body {
   font-family: "Segoe UI", sans-serif;
 }
+nav{
+  background-color: #343A40;
+  color: #fff;
+}
+
+.navbar-nav li a{
+  color: #fff;
+  font-weight: bold;
+}
+.navbar-nav li{
+  margin-inline: 5px;
+}
 .navbar-brand {
   font-weight: bold;
-  color: #1b5e20;
+  color: #FDD835;
+  margin-left: 0;
+}
+.navbar-brand:hover{
+  color: dodgerblue;
+}
+.navbar-brand img{
+  margin-right: 10px;
 }
 .navbar-brand img {
   width: 40px;
@@ -136,7 +155,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #1b5e20 !important;
+  color: #FDD835!important;
 }
 #testimonials .card {
   transition: transform 0.3s ease;
