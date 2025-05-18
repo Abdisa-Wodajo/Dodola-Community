@@ -188,23 +188,6 @@ body {
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(255, 193, 7, 0.6);
   }
-
-  .hover-label {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    background-color: #ffc107;
-    color: #343a40;
-    padding: 4px 8px;
-    border-radius: 5px;
-    font-weight: bold;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .custom-card:hover .hover-label {
-    opacity: 1;
-  }
 .footer {
   background-color: #1b5e20;
   color: white;
