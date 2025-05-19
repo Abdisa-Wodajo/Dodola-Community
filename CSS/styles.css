@@ -229,6 +229,8 @@ svg {
 .navbar-toggler {
   background-color: white;
 }
+/*media Query for small screens*/
+
 @media (max-width: 600px) {
   .navbar-nav {
     display: flex;
