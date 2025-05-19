@@ -207,19 +207,41 @@ nav {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(255, 193, 7, 0.6);
 }
+.kaardii {
+  height: 300px;
+}
 
 .footer a:hover {
   color: #0d6efd !important; /* Bootstrap primary color on hover */
   text-decoration: underline;
 }
-svg{
+svg {
   transform: scale(3);
   padding-inline: 5px;
 }
 .footer svg:hover {
   transition: transform 0.3s;
 }
-.bottom-bar{
+.bottom-bar {
   display: flex;
   justify-content: center;
+}
+.navbar-toggler {
+  background-color: white;
+}
+@media (max-width: 600px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-nav li:hover {
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 }
