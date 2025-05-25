@@ -216,7 +216,7 @@ nav {
   text-decoration: underline;
 }
 svg {
-  transform: scale(3);
+  transform: scale(3.5);
   padding-inline: 5px;
 }
 .footer svg:hover {
