@@ -1,0 +1,4 @@
+[build]
+  base = "Dodola-Community"
+  publish = "."
+  command = "echo 'No build required'"
