@@ -61,23 +61,23 @@ nav {
 
 /* Set background images for each slide */
 .slide1 {
-  background-image: url("/Assets/img/background1.jpg");
+  background-image: url("../Assets/img/background1.jpg");
   animation-delay: 0s;
 }
 .slide2 {
-  background-image: url("/Assets/img/background2.jpg");
+  background-image: url("../Assets/img/background2.jpg");
   animation-delay: 4s;
 }
 .slide3 {
-  background-image: url("/Assets/img/background3.jpg");
+  background-image: url("../Assets/img/background3.jpg");
   animation-delay: 8s;
 }
 .slide4 {
-  background-image: url("/Assets/img/background4.jpg");
+  background-image: url("../Assets/img/background4.jpg");
   animation-delay: 12s;
 }
 .slide5 {
-  background-image: url("/Assets/img/background5.jpg");
+  background-image: url("../Assets/img/background5.jpg");
   animation-delay: 16s;
 }
 
